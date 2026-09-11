@@ -1,0 +1,7 @@
+dashboard/vendor/
+dashboard/node_modules/
+dashboard/.env
+scraper-service/.venv/
+scraper-service/.env
+scraper-service/__pycache__/
+*.log
