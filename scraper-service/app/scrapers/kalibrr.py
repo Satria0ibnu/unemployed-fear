@@ -108,6 +108,17 @@ class KalibrrScraper(ScraperBase):
             posted_at=self._parse_datetime(job.get("createdAt")),
             updated_at_source=self._parse_datetime(job.get("updatedAt")),
             deadline_at=self._parse_datetime(job.get("applicationEndDate")),
+            source_native_id=job.get("id"),
+            salary_min=None,
+            salary_max=None,
+            salary_currency=None,
+            work_arrangement=None,
+            skill_tags=None,
+            education_level=None,
+            experience_years_min=None,
+            benefits_raw=None,
+            gender_requirement_raw=None,
+            max_age_raw=None,
             scraped_at=datetime.utcnow(),
         )
 
