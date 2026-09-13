@@ -8,3 +8,6 @@ scraper-service/kalibrr_sample.html
 *.log
 Thumbs.db
 .DS_Store
+
+# Graphify
+graphify-out
