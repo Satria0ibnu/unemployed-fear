@@ -1,0 +1,27 @@
+# Virtual environment (uv)
+.venv/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — jangan pernah commit kredensial
+.env
+
+# Cache tools Python umum
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# File debug/sample yang mungkin dibuat saat development
+*.html
+!templates/**/*.html
+
+# OS-specific (Windows)
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/

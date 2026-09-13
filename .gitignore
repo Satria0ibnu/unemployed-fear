@@ -4,4 +4,7 @@ dashboard/.env
 scraper-service/.venv/
 scraper-service/.env
 scraper-service/__pycache__/
+scraper-service/kalibrr_sample.html
 *.log
+Thumbs.db
+.DS_Store
